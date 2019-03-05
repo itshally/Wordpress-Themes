@@ -1,0 +1,14 @@
+/*
+    Theme Name: Practice Theme
+    Author: Alice
+*/
+
+body{
+    background-color: rgb(138, 138, 138);
+}
+
+header{
+    background-color: pink;
+    width: 100%;
+    height: 100px;
+}
