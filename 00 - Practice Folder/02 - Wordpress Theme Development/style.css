@@ -227,3 +227,14 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
     border: #ccc solid 1px;
     margin-bottom: 15px;
   }
+
+  .post-gallery{
+    background-color:black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .post-gallery h2{
+    color: #fff;
+  }
