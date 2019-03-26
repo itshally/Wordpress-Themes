@@ -1,15 +1,18 @@
 <?php get_header(); ?>
-    <section class="showcase">
+    <section class="showcase" style="border: none; background: url(<?php echo get_theme_mod('showcase_image', get_bloginfo('template_url').'/img/showcase.jpg'); ?>) no-repeat center center;">
         <div class="container">
-            <h1>Custom Bootstrap Wordpress Theme</h1>
+            <h1><?php echo get_theme_mod('showcase_heading', 'Custom Bootstrap Wordpress Theme'); ?></h1>
             <p>
-                Fusce libero turpis, semper ut iaculis elementum, pretium sed turpis.
-                Donec in facilisis massa. Aliquam augue neque, tincidunt vitae varius a, commodo sit amet arcu.
-                Pellentesque eu rhoncus risus. Donec augue diam, sodales non mattis non, iaculis a est.
-                Duis euismod consequat odio, eget tincidunt ante laoreet porttitor.
-                Sed dapibus justo ac nibh imperdiet euismod.
+                <?php echo get_theme_mod('showcase_text', 'Fusce libero turpis, semper ut iaculis elementum, pretium sed turpis.
+                    Donec in facilisis massa. Aliquam augue neque, tincidunt vitae varius a, commodo sit amet arcu.
+                    Pellentesque eu rhoncus risus. Donec augue diam, sodales non mattis non, iaculis a est.
+                    Duis euismod consequat odio, eget tincidunt ante laoreet porttitor.                             
+                    Sed dapibus justo ac nibh imperdiet euismod.');
+                ?>
             </p>
-            <a class="btn btn-primary btn-lg">Read More</a>
+            <a href="<?php echo get_theme_mod('btn_url','http://google.com'); ?>" class="btn btn-primary btn-lg">
+                <?php echo get_theme_mod('btn_text', 'Read More'); ?>
+            </a>
         </div>
     </section>
 
